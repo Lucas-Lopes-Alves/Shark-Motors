@@ -8,16 +8,27 @@ body {
 .cabecalho {
     background-color: rgb(190,1,1);
     font-size: 35px;
-    height: 100px;
+    background: linear-gradient(to bottom,rgba(190, 1, 1, 1),rgba(0, 0, 0, 0.91));
 }
 
 .cabecalho ul {
-    display: flex;
+    display: inline-flex;
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 
 .cabecalho ul li{
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cabecalho ul li img{
+    margin-top: -30px;
+    margin-left: 0;
+}
+
+.centro{
+    margin-top: 300px;
+    margin-left: 450px;
 }
