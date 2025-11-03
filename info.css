@@ -7,8 +7,9 @@ body {
 
 .cabecalho {
     background-color: rgb(190,1,1);
-    font-size: 35px;
+    font-size: 25px;
     background: linear-gradient(to bottom,rgba(190, 1, 1, 1),rgba(0, 0, 0, 0.91));
+    height: 100px;
 }
 
 .cabecalho ul {
@@ -24,11 +25,11 @@ body {
 }
 
 .cabecalho ul li img{
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: 0;
 }
 
 .centro{
-    margin-top: 280px;
-    margin-left: 450px;
+    margin-top: 90px;
+    margin-left: 320px;
 }
