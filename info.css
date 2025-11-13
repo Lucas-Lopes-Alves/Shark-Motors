@@ -27,13 +27,13 @@ body {
 }
 
 .cabecalho ul li{
-    margin-left: 2.5vh;
+    margin-right: 2.5vh;
     margin-top: 4vh;
 }
 
 .cabecalho ul li img{
     margin-top: -3.5vh;
-    margin-left: auto;
+    margin-left: 0.01vw;
 }
 
 .centro{
