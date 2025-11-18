@@ -40,3 +40,20 @@ body {
     margin-top: 17vh;
     margin-left: 41vh;
 }
+
+.textoCentro {
+    font-size:6rem;
+    margin-left: 2.5vw;
+    margin-top: 0.5vh;
+    color:rgb(91, 92, 91);
+}
+
+.apresentacao {
+    margin: 0;
+}
+
+.apresentacao h1 {
+    margin-left:15vw;
+    font-size:11rem;
+    background-color: rgba(173, 0, 0, 1);
+}
