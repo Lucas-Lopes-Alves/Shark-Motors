@@ -55,6 +55,7 @@ body {
 
 .apresentacao h1 {
     margin-left:17vw;
+    margin-right: 20vw;
     padding-left: 1vw;
     padding-right: 1vw;
     font-size:5rem;
@@ -62,4 +63,13 @@ body {
     width: 27vw;
     display: inline-block;
     border-radius: 30px;
+}
+
+.apresentacao p {
+    margin-left: 60vw;
+    font-size: 4rem;
+}
+
+.apresentacao img {
+    margin-top: -20;
 }
