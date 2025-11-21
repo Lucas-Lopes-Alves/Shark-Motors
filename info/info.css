@@ -1,6 +1,6 @@
 html {
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     font-size:15px
 }
 
@@ -38,11 +38,11 @@ body {
 
 .centro{
     margin-top: 17vh;
-    margin-left: 41vh;
+    margin-left: 32vh;
 }
 
 .textoCentro {
-    font-size:6rem;
+    font-size:5rem;
     margin-left: 2.5vw;
     margin-top: 0.5vh;
     color:rgb(91, 92, 91);
@@ -50,10 +50,16 @@ body {
 
 .apresentacao {
     margin: 0;
+    width: 100vw;
 }
 
 .apresentacao h1 {
-    margin-left:15vw;
-    font-size:11rem;
+    margin-left:17vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size:5rem;
     background-color: rgba(173, 0, 0, 1);
+    width: 27vw;
+    display: inline-block;
+    border-radius: 30px;
 }
