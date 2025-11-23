@@ -43,7 +43,7 @@ body {
 .produto img {
     width: 50vw;
     height: auto;
-    margin-left:6vw;
+    margin-left: 6vw;
     margin-top: 5vh;
 }
 
@@ -57,7 +57,34 @@ body {
     padding-bottom: 3vh;
     width: 20vw;
     height: 60vh;
-    background-color:rgba(135, 1, 1, 1) ;
-    box-shadow:0 0 20px 5px rgba(255, 0, 0, 0.5);
+    background-color: rgba(135, 1, 1, 1);
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.5);
     border-radius: 50px;
 }
+
+@media (min-width: 400px) and (max-width:650px) {
+    html {
+        font-size: 70%;
+    }
+    .cabecalho ul li img {
+        margin-top:-3vh;
+        margin-right: -3vw;
+        margin-left: -5vw;
+        padding: 0;
+        width: 20vw;
+    }
+    .produto img {
+        margin-left: 27vw;
+    }
+    .descricao {
+        margin: 0;
+        margin-left: 12vw;
+        padding: 0;
+        padding-top: 4vh;
+        padding-left: 7vw;
+        padding-right: 4vw;
+        width: 70vw;
+        height: 30vh;
+    }        
+
+}  
