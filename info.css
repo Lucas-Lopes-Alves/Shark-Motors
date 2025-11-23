@@ -73,7 +73,7 @@ body {
     margin-left: 3vw;
 }
 
-@media (min-width:500px) and (max-width:650px) {
+@media (min-width:400px) and (max-width:800px) {
     html {
         font-size: 60%;
     }
@@ -120,7 +120,7 @@ body {
 
     .apresentacao h1 {
         padding: auto auto auto auto;
-        font-size: 27px;
+        font-size: 25px;
         width: 25vw;
         height: 10vh;
     }
