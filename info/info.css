@@ -1,20 +1,18 @@
 html {
-    width: 90vw;
-    height: 90vh;
-    font-size:15px
+    font-size: 100%;
 }
 
 body {
-    background-color: rgb(0,0,0);
+    background-color: rgb(0, 0, 0);
     color: white;
     margin: auto;
     font-family: "Audiowide";
 }
 
 .cabecalho {
-    background-color: rgb(190,1,1);
+    background-color: rgb(190, 1, 1);
     font-size: 2rem;
-    background: linear-gradient(to bottom,rgba(190, 1, 1, 1),rgba(0, 0, 0, 0.91));
+    background: linear-gradient(to bottom, rgba(190, 1, 1, 1), rgba(0, 0, 0, 0.91));
     height: 15vh;
     width: 100vw;
 }
@@ -26,26 +24,26 @@ body {
     padding: auto;
 }
 
-.cabecalho ul li{
+.cabecalho ul li {
     margin-right: 2.5vh;
     margin-top: 4vh;
 }
 
-.cabecalho ul li img{
+.cabecalho ul li img {
     margin-top: -3.5vh;
     margin-left: 0.01vw;
 }
 
-.centro{
+.centro {
     margin-top: 17vh;
     margin-left: 32vh;
 }
 
 .textoCentro {
-    font-size:5rem;
+    font-size: 5rem;
     margin-left: 2.5vw;
     margin-top: 0.5vh;
-    color:rgb(91, 92, 91);
+    color: rgb(91, 92, 91);
 }
 
 .apresentacao {
@@ -54,22 +52,76 @@ body {
 }
 
 .apresentacao h1 {
-    margin-left:17vw;
-    margin-right: 20vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-size:5rem;
-    background-color: rgba(173, 0, 0, 1);
-    width: 27vw;
+    margin-left: 17vw;
+    margin-bottom: 10vh;
+    padding-left: 2.5vw;
+    padding-top: 3vh;
+    font-size: 4rem;
+    /*width: 25vw;
+    height: 15vh;*/
     display: inline-block;
     border-radius: 30px;
 }
 
 .apresentacao p {
     margin-left: 60vw;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .apresentacao img {
-    margin-top: -20;
+    margin-top: -40vh;
+    margin-left: 3vw;
+}
+
+@media (min-width:500px) and (max-width:650px) {
+    html {
+        font-size: 60%;
+    }
+
+    * {
+        margin-left: -50px;
+    }
+
+    .cabecalho {
+        margin-left: 5px;
+        width:100%;
+    }
+
+    .cabecalho li {
+        margin-left: 20px;
+    }
+
+    .cabecalho img {
+        width: 100px;
+        height: auto;
+    }
+
+    .centro img {
+        margin-left: -50px;
+    }
+
+    .textoCentro {
+        margin-left: -80px;
+        font-size: 3.5rem;
+    }
+
+    .apresentacao img {
+        margin-left: 70px;
+    }
+
+    .apresentacao p {
+        margin-right: -60px;
+        font-size: 20px;
+        display: flex;
+        padding-left: 50px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .apresentacao h1 {
+        padding: auto auto auto auto;
+        font-size: 27px;
+        width: 25vw;
+        height: 10vh;
+    }
 }
