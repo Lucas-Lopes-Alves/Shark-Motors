@@ -68,18 +68,21 @@ body {
 
 @media (min-width: 400px) and (max-width:650px) {
     html {
-        font-size: 70%;
+        font-size: 60%;
     }
     .cabecalho {
-        width:100%;
+        width:100vw;
+        height: 10vh;
+        font-size: 1.5rem;
     }
 
-    .cabecalho li {
-        margin-left: 10px;
+    .cabecalho ul li {
+        margin-top: 2.5vh;
+        font-size: 1.8rem;
     }
 
     .cabecalho ul li img {
-        margin-top:-3vh;
+        margin-top:-2vh;
         margin-right: -3vw;
         margin-left: -10vw;
         padding: 0;
@@ -92,11 +95,12 @@ body {
         margin: 0;
         margin-left: 12vw;
         padding: 0;
-        padding-top: 4vh;
+        padding-top: 3vh;
         padding-left: 7vw;
         padding-right: 4vw;
         width: 70vw;
         height: 30vh;
+        font-size: 1.4rem;
     }        
 
 }  
