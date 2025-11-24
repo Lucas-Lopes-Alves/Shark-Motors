@@ -53,7 +53,24 @@ body {
     margin-left: 3vw;
 }
 
-.agendado p,button {
+.agendado p {
     margin-right: 7vw;
     margin-top: 2vw;
+    font-size: 1.2rem;
+    background-color: rgba(71,1,1,1);
+    border-radius: 7px;
+    width: 8vw;
+    height: 6vh;
+}
+
+.agendado button {
+    margin-top: 4.5vh;
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.2rem;
+    font-family: "audiowide";
+    background-color: rgba(74, 1, 1, 1);
+    color: white;
+    border-radius: 7px;
+    border: 0;
 }
