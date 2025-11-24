@@ -40,15 +40,15 @@ body {
 
 .centro {
     margin-top: 17vh;
-    margin-left: 32vh;
+    margin-left: 15vh;
 }
 
 .centro p {
-    margin-left: -2vw;
+    margin-left: 6vw;
 }
 
 .centro img {
-    margin-left: 6.5vw;
+    margin-left: 13vw;
 }
 
 .textoCentro {
@@ -95,12 +95,13 @@ body {
     }
 
     .cabecalho {
-        margin-left: 5px;
+        margin-left: 3px;
         width:100%;
+        height: 13vh;
+        font-size: 1.8rem;
     }
-
     .cabecalho li {
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .cabecalho ul li img {
@@ -108,14 +109,17 @@ body {
         height: auto;
         margin-top: -3vh;
     }
-
+    .centro {
+        margin-top: 5vh;
+    }
     .centro img {
-        margin-left: -50px;
+        margin-left:1vw;
     }
 
     .textoCentro {
-        margin-left:2vw;
-        font-size: 3.5rem;
+        margin:0 0 5vh 0;
+        margin-left:100vw;
+        font-size: 3rem;
     }
 
     .apresentacao img {
@@ -135,8 +139,10 @@ body {
         padding: auto auto auto auto;
         padding-left: 4vw;
         font-size: 23px;
-        width: 23vw;
-        height: 5vh;
+        width: 28vw;
+        height: 4vh;
+        margin-bottom: 2vh;
+        margin-top: 10vh;
     }
 
     .apresentacao a {
