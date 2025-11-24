@@ -1,6 +1,11 @@
+* {
+    list-style-type: none;
+}
+
 html {
     font-size: 100%;
 }
+
 html a {
     text-decoration: 0;
     color: white;
@@ -29,15 +34,17 @@ body {
 }
 
 .cabecalho ul li {
-    margin-right: 5vh;
+    margin-right: 6vh;
     margin-top: 3vh;
 }
 
 .cabecalho ul li img {
     margin-top: -8vh;
     margin-left: -5vw;
+    margin-right: -5vw;
 }
-.agendado{
+
+.agendado {
     display: flex;
     margin-left: 5vw;
     margin-top: 10vh;
@@ -49,28 +56,79 @@ body {
 .agendado img {
     width: 10vw;
     height: auto;
-    margin-right:40vw ;
+    margin-right: 20vw;
     margin-left: 3vw;
 }
 
-.agendado p {
+.agendado input {
     margin-right: 7vw;
-    margin-top: 2vw;
+    margin-top: 1.5vw;
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+    padding-right: 5vw;
     font-size: 1.2rem;
-    background-color: rgba(71,1,1,1);
-    border-radius: 7px;
+    background-color: rgba(71, 1, 1, 1);
+    border-radius: 15px;
     width: 8vw;
     height: 6vh;
+    font-family: "audiowide";
+    color: white;
+    border: 0;
 }
 
 .agendado button {
-    margin-top: 4.5vh;
-    width: 8vw;
-    height: 6vh;
+    margin-top: 3vh;
+    margin-right: 10vw;
+    width: 70vw;
+    height: 7.5vh;
     font-size: 1.2rem;
     font-family: "audiowide";
     background-color: rgba(74, 1, 1, 1);
     color: white;
-    border-radius: 7px;
+    border-radius: 15px;
     border: 0;
+}
+
+@media (min-width:400px) and (max-width:850px) {
+    html {
+        font-size: 60%;
+    }
+
+    .cabecalho {
+        margin-left: 2vw;
+        width:100vw;
+        height: 13vh;
+        font-size: 1.8rem;
+    }
+    .cabecalho ul li {
+        margin-right: 4vw;
+    }
+    .cabecalho ul li img {
+        width: 100px;
+        height: auto;
+        margin-top: -2vh;
+        margin-left: -11vw;
+    }
+    
+    .agendado {
+        display: block;
+        margin-left: 11vw;
+    }
+    .agendado img {
+        width: 60vw;
+        margin-left: 13vw;
+
+    }
+    .agendado input {
+        margin-left: 10vw;
+        padding-bottom: 1vh;
+        padding-left: 4vw;
+        height: 4vh;
+        width: 15vw;
+    }
+    .agendado button {
+        margin-left: 7.5vw;
+    }
+    
+    
 }
