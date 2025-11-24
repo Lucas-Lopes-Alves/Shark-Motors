@@ -1,0 +1,91 @@
+html {
+    font-size: 100%;
+}
+html a {
+    text-decoration: 0;
+    color: white;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    font-family: "Audiowide";
+}
+
+
+.cabecalho {
+    background-color: rgb(190, 1, 1);
+    font-size: 2rem;
+    background: linear-gradient(to bottom, rgba(190, 1, 1, 1), rgba(0, 0, 0, 0.91));
+    height: 15vh;
+    width: 100vw;
+}
+
+.cabecalho ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+}
+
+.cabecalho ul li {
+    margin-right: 6vh;
+    margin-top: 3vh;
+}
+
+.cabecalho ul li img {
+    margin-top: -8vh;
+    margin-left: -5vw;
+    margin-right: -5vw;
+}
+
+.frase {
+    margin-left: 33vw;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+}
+
+.compras {
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    margin-right: 15vw;
+    background-color: rgba(48, 0, 0, 1);
+    border-radius: 22px;
+}
+
+.compras img {
+    width: 10vw;
+    height: auto;
+    margin-right: 10vw;
+    margin-left: 3vw;
+}
+
+.compras p {
+    margin-right: 7vw;
+    margin-top: 1.5vw;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    font-size: 1.2rem;
+    background-color: rgba(71, 1, 1, 1);
+    border-radius: 15px;
+    width: 100vw;
+    height: 7vh;
+    font-family: "audiowide";
+    color: white;
+    border: 0;
+}
+
+.compras button {
+    margin-top: 4vh;
+    margin-right: 5vw;
+    width: 70vw;
+    height: 7.5vh;
+    font-size: 1.2rem;
+    font-family: "audiowide";
+    background-color: rgba(74, 1, 1, 1);
+    color: white;
+    border-radius: 15px;
+    border: 0;
+}
