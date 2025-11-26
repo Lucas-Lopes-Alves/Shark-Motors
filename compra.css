@@ -35,14 +35,14 @@ body {
 }
 
 .cabecalho ul li img {
-    margin-top: -8vh;
+    margin-top: -5vh;
     margin-left: -5vw;
     margin-right: -5vw;
 }
 
 .frase {
     margin-left: 33vw;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 5vh;
 }
 
@@ -57,16 +57,17 @@ body {
 
 .compras img {
     width: 10vw;
-    height: auto;
+    height: 13vh;
     margin-right: 10vw;
+    margin-top: 1vh;
     margin-left: 3vw;
 }
 
 .compras p {
     margin-right: 7vw;
     margin-top: 1.5vw;
-    padding-top: 3vh;
-    padding-left: 2vw;
+    padding-top: 3.5vh;
+    padding-left: 3vw;
     font-size: 1.2rem;
     background-color: rgba(71, 1, 1, 1);
     border-radius: 15px;
@@ -82,7 +83,7 @@ body {
     margin-right: 5vw;
     width: 70vw;
     height: 7.5vh;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: "audiowide";
     background-color: rgba(74, 1, 1, 1);
     color: white;
