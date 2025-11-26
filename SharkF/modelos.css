@@ -29,12 +29,12 @@ body {
 }
 
 .cabecalho ul li {
-    margin-right: 4vh;
-    margin-top: 4vh;
+    margin-right: 3.5vh;
+    margin-top: 3vh;
 }
 
 .cabecalho ul li img {
-    margin-top: -6vh;
+    margin-top: -7vh;
     margin-left: -3vw;
     width: 15vw;
     height: auto;
@@ -48,7 +48,7 @@ body {
     width: 50vw;
     height: auto;
     margin-left: 6vw;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 .produto button {
     font-family: audiowide;
@@ -67,7 +67,7 @@ body {
 .descricao {
     font-size: 0.97rem;
     margin-left: 65vw;
-    margin-top: -70vh;
+    margin-top: -65vh;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 4.5vh;
