@@ -40,13 +40,12 @@ body {
 
 .cabecalho ul li img {
     margin-top: -5vh;
-    margin-left: -5vw;
+    margin-left: -3vw;
     margin-right: -5vw;
 }
-
 .agendado {
     display: flex;
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-top: 10vh;
     margin-right: 5vw;
     background-color: rgba(48, 0, 0, 1);
