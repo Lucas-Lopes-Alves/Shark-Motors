@@ -36,20 +36,20 @@ body {
 
 .cabecalho ul li img {
     margin-top: -5vh;
-    margin-left: -5vw;
+    margin-left: -3vw;
     margin-right: -5vw;
 }
 
 .frase {
-    margin-left: 33vw;
-    font-size: 1.8rem;
+    margin-left: 29vw;
+    font-size: 3rem;
     margin-top: 5vh;
 }
 
 .compras {
     display: flex;
     margin-left: 15vw;
-    margin-top: 10vh;
+    margin-bottom: 10vh;
     margin-right: 15vw;
     background-color: rgba(48, 0, 0, 1);
     border-radius: 22px;
