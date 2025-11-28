@@ -94,7 +94,6 @@ body {
     }
 
     .cabecalho {
-        margin-left: 2vw;
         width:100vw;
         height: 13vh;
         font-size: 1.5rem;
@@ -111,11 +110,14 @@ body {
     
     .agendado {
         display: block;
-        margin-left: 11vw;
+        margin-left: 6vw;
+        margin-bottom: 7vh;
+        margin-top: 3vh;
     }
     .agendado img {
         width: 60vw;
         margin-left: 13vw;
+        margin-right: 0;
 
     }
     .agendado input {
@@ -124,9 +126,12 @@ body {
         padding-left: 4vw;
         height: 4vh;
         width: 15vw;
+        font-size: 1.4rem;
     }
     .agendado button {
-        margin-left: 7.5vw;
+        margin-left: 10vw;
+        margin-right: 0;
+        font-size: 1.8rem;
     }
     
     
